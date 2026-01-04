@@ -11,6 +11,9 @@ function TodoItem({todo, onToggle}) {
                     textDecoration: todo.isCompleted ? "line-through" : "none"
                 }}
             > {todo.text}</span>
+            <span>
+                <button>Delete</button>
+            </span>
         </div>
     )
 }
